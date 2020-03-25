@@ -1,0 +1,593 @@
+<?xml version="1.0"?>
+<root>
+  <page>
+    <item>
+      <title><![CDATA[404 Not Found 1]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[no-route]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="page-title"><h1>Whoops, our bad...</h1></div>
+<dl>
+    <dt>The page you requested was not found, and we have a fine guess why.</dt>
+    <dd>
+        <ul class="disc">
+            <li>If you typed the URL directly, please make sure the spelling is correct.</li>
+            <li>If you clicked on a link to get here, the link is outdated.</li>
+        </ul>
+    </dd>
+</dl>
+<dl>
+    <dt>What can you do?</dt>
+    <dd>Have no fear, help is near! There are many ways you can get back on track with Magento Store.</dd>
+    <dd>
+        <ul class="disc">
+            <li><a href="#" onclick="history.go(-1); return false;">Go back</a> to the previous page.</li>
+            <li>Use the search bar at the top of the page to search for your products.</li>
+            <li>Follow these links to get you back on track!<br /><a href="{{store url=""}}">Store Home</a>
+            <span class="separator">|</span> <a href="{{store url="customer/account"}}">My Account</a></li>
+        </ul>
+    </dd>
+</dl>
+]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[About Us]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[about-magento-demo-store]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<!-- about-magento-demo-store -->
+<div class="our-works">
+	<div class="our-story">
+		<div class="about-box-width"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/cms/about-us.jpg"}}" alt="about-us" /></div>
+		<div class="about-us-info expert-aboutus about-us-box-1">
+			<div class="block-title">
+				<h2>Interesting Facts</h2>
+			</div>
+			<div class="block-content">
+				<p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+			</div>
+		</div>
+	</div>
+	<div class="about-us-box-2">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<div class="about-us-info expert-aboutus box-layout-2">
+					<b class="index-code">10000</b>
+					<h3 class="title-box">Items in Store</h3>
+					<p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s...</p>
+	            </div>
+	        </div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<div class="about-us-info expert-aboutus box-layout-2">
+					<b class="index-code">90%</b>
+					<h3 class="title-box">Our Customers comeback</h3>
+					<p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s...</p>
+	            </div>
+	        </div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<div class="about-us-info expert-aboutus box-layout-2">
+					<b class="index-code">2 million</b>
+					<h3 class="title-box">User of the site</h3>
+					<p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s...</p>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Customer Service]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[customer-service]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="page-title">
+<h1>Customer Service</h1>
+</div>
+<ul class="disc">
+<li><a href="#answer1">Shipping &amp; Delivery</a></li>
+<li><a href="#answer2">Privacy &amp; Security</a></li>
+<li><a href="#answer3">Returns &amp; Replacements</a></li>
+<li><a href="#answer4">Ordering</a></li>
+<li><a href="#answer5">Payment, Pricing &amp; Promotions</a></li>
+<li><a href="#answer6">Viewing Orders</a></li>
+<li><a href="#answer7">Updating Account Information</a></li>
+</ul>
+<dl>
+<dt id="answer1">Shipping &amp; Delivery</dt>
+<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.
+Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.
+Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,
+faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.
+Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
+justo.</dd>
+<dt id="answer2">Privacy &amp; Security</dt>
+<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.
+Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.
+Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,
+faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.
+Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
+justo.</dd>
+<dt id="answer3">Returns &amp; Replacements</dt>
+<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.
+Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.
+Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,
+faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.
+Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
+justo.</dd>
+<dt id="answer4">Ordering</dt>
+<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.
+Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.
+Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,
+faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.
+Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
+justo.</dd>
+<dt id="answer5">Payment, Pricing &amp; Promotions</dt>
+<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.
+Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.
+Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,
+faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.
+Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
+justo.</dd>
+<dt id="answer6">Viewing Orders</dt>
+<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.
+Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.
+Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,
+faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.
+ Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+ Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
+ justo.</dd>
+<dt id="answer7">Updating Account Information</dt>
+<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.
+ Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.
+ Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in,
+ faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa.
+ Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+ Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec,
+ justo.</dd>
+</dl>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Locations]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[locations]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<div class="store-contact locations">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 store1">
+				<div class="store-item clearfix">
+				    <h3 class="block-title">Store 1</h3>
+					<div class="single-store">
+						<img class="img-responsive single-images" src="{{media url="wysiwyg/alothemes/cms/store1.jpg"}}" alt="" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+					</div>
+					<div class="column_right">
+						<ul class="store_info">
+							<li>
+								<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Email</span>
+									<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+									<span class="tit-contain"><a href="mailto:contact@yourcompany.com">contact@yourcompany.com</a></span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Phone</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Mail Office</span>
+									<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+								</p>
+							</li>
+						</ul>
+						<div class="onmap">
+							<div class="tool-map">
+								<div class="onclick-map">
+									<span>Find us on Map</span>
+								</div>
+								<div class="over-lay"><span class="hidden">hidden</span></div>
+								<div class="toggle-content-close toggle-content">
+									<div class="google-map">
+									     <div class="button btn-close"><span></span><span class="hidden">hidden</span><span></span></div>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.33632842556!2d-118.69193052427944!3d34.02075039412672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+California!5e0!3m2!1svi!2s!4v1481819994909" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 store2">
+				<div class="store-item clearfix">
+				    <h3 class="block-title">Store 2</h3>
+					<div class="single-store">
+						<img class="img-responsive single-images" src="{{media url="wysiwyg/alothemes/cms/store2.jpg"}}" alt="" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+					</div>
+					<div class="column_right">
+						<ul class="store_info">
+							<li>
+								<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Email</span>
+									<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+									<span class="tit-contain"><a href="mailto:contact@yourcompany.com">contact@yourcompany.com</a></span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Phone</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Mail Office</span>
+									<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, New York</span>
+								</p>
+							</li>
+						</ul>
+						<div class="onmap">
+							<div class="tool-map">
+								<div class="onclick-map">
+									<span>Find us on Map</span>
+								</div>
+								<div class="over-lay"><span class="hidden">hidden</span></div>
+								<div class="toggle-content-close toggle-content">
+									<div class="google-map">
+									    <div class="button btn-close"><span></span><span class="hidden">hidden</span><span></span></div>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193572.19492844603!2d-74.11808565615138!3d40.70556503857166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2s!4v1496922928887" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 store3">
+				<div class="store-item clearfix">
+				    <h3 class="block-title">Store 3</h3>
+					<div class="single-store">
+						<img class="img-responsive single-images" src="{{media url="wysiwyg/alothemes/cms/store3.jpg"}}" alt="" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+					</div>
+					<div class="column_right">
+						<ul class="store_info">
+							<li>
+								<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Email</span>
+									<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+									<span class="tit-contain"><a href="mailto:contact@yourcompany.com">contact@yourcompany.com</a></span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Phone</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Mail Office</span>
+									<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Paris</span>
+								</p>
+							</li>
+						</ul>
+						<div class="onmap">
+							<div class="tool-map">
+								<div class="onclick-map">
+									<span>Find us on Map</span>
+								</div>
+								<div class="over-lay"><span class="hidden">hidden</span></div>
+								<div class="toggle-content-close toggle-content">
+									<div class="google-map">
+									    <div class="button btn-close"><span></span><span class="hidden">hidden</span><span></span></div>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94722604656!2d2.2775176578011154!3d48.85883773961771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sen!2s!4v1496923013711" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 store4 last">
+				<div class="store-item clearfix">
+				    <h3 class="block-title">Store 4</h3>
+					<div class="single-store">
+						<img class="img-responsive single-images" src="{{media url="wysiwyg/alothemes/cms/store4.jpg"}}" alt="" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+					</div>
+					<div class="column_right">
+						<ul class="store_info">
+							<li>
+								<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Email</span>
+									<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+									<span class="tit-contain"><a href="mailto:contact@yourcompany.com">contact@yourcompany.com</a></span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Phone</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+									<span class="tit-contain">+ 021.343.7575</span>
+								</p>
+							</li>
+							<li>
+								<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+								<p class="flex">
+									<span class="tit-name">Mail Office</span>
+									<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Tokyo</span>
+								</p>
+							</li>
+						</ul>
+						<div class="onmap">
+							<div class="tool-map">
+								<div class="onclick-map">
+									<span>Find us on Map</span>
+								</div>
+								<div class="over-lay"><span class="hidden">hidden</span></div>
+								<div class="toggle-content-close toggle-content">
+									<div class="google-map">
+									    <div class="button btn-close"><span></span><span class="hidden">hidden</span><span></span></div>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207432.99597381358!2d139.5703044659214!3d35.67354078930046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C+Japan!5e0!3m2!1sen!2s!4v1496923187452" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Home Page 11]]></title>
+      <root_template><![CDATA[one_column]]></root_template>
+      <identifier><![CDATA[expert11]]></identifier>
+      <content_heading><![CDATA[]]></content_heading>
+      <content><![CDATA[<!-- policy -->
+<div class="cms-static-policy policy home-policy">
+	<div class="policy-wrap row clearfix">
+		<div class="policy-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-transport"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Free Shipping</h3>
+					</div>
+					<div class="sub-title"><span>On Oder Over $99</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="policy-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-clock"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Guarantee</h3>
+					</div>
+					<div class="sub-title"><span>30 Days Money Back</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="policy-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-money"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Payment On Delivery</h3>
+					</div>
+					<div class="sub-title"><span>Cash On Delivery Option</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="policy-box col-lg-3 col-md-3 col-sm-3 col-xs-12">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-technology"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Online Suport</h3>
+					</div>
+					<div class="sub-title"><span>We Have Support 24/7</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Block Hot categories magento1 -->
+<div class="hotcat-section">
+    <div class="content-banner featured-category home-slider-category clearfix">
+		<div class="categories-slider">
+			<div class="item item-category1"> 
+				<div class="imgslide div-1">
+					<a class="alinkslide" href="#"><img src="{{media url="wysiwyg/alothemes/static/demo11/hotcategory-1.jpg"}}" alt="Hot Categories" class="u-photo img-responsive" /></a>
+				</div>
+				<div class="figcaption categories-inner cate-content div-2">
+					<div class="cate-name-wrap">
+						<p class="cate-name">Laptop & Computer</p>
+					</div>
+					<ul>
+						<li><a href="#">Headphones</a></li>
+						<li><a href="#">Computer Accessories</a></li>
+						<li><a href="#">Computer Monitors</a></li>
+						<li><a href="#">Desktop Computers</a></li>
+					</ul>
+					<a class="cate-link link-active" href="#"><span>View all</span></a>
+				</div>
+			</div>
+			<div class="item item-category2"> 
+				<div class="imgslide div-1">
+					<a class="alinkslide" href="#"><img src="{{media url="wysiwyg/alothemes/static/demo11/hotcategory-2.jpg"}}" alt="Hot Categories" class="u-photo img-responsive" /></a>
+				</div>
+				<div class="figcaption categories-inner cate-content div-2">
+					<div class="cate-name-wrap">
+						<p class="cate-name">Audios & Accessories</p>
+					</div>
+					<ul>
+						<li><a href="#">Blue-ray Players</a></li>
+						<li><a href="#">DVD Players</a></li>
+						<li><a href="#">Home & Audio</a></li>
+						<li><a href="#">Home Theatres</a></li>
+					</ul>
+					<a class="cate-link link-active" href="#"><span>View all</span></a>
+				</div>
+			</div>
+			<div class="item item-category3"> 
+				<div class="imgslide div-1">
+					<a class="alinkslide" href="#"><img src="{{media url="wysiwyg/alothemes/static/demo11/hotcategory-3.jpg"}}" alt="Hot Categories" class="u-photo img-responsive" /></a>
+				</div>
+				<div class="figcaption categories-inner cate-content div-2">
+					<div class="cate-name-wrap">
+						<p class="cate-name">Smartphone & Tablet</p>
+					</div>
+					<ul>
+						<li><a href="#">Washers & Dryers</a></li>
+						<li><a href="#">Specialty Laundry Machines</a></li>
+						<li><a href="#">Washer Parts & Accessories</a></li>
+						<li><a href="#">Parts & Accessories</a></li>
+					</ul>
+					<a class="cate-link link-active" href="#"><span>View all</span></a>
+				</div>
+			</div>
+			<div class="item item-category4"> 
+				<div class="imgslide div-1">
+					<a class="alinkslide" href="#"><img src="{{media url="wysiwyg/alothemes/static/demo11/hotcategory-4.jpg"}}" alt="Hot Categories" class="u-photo img-responsive" /></a>
+				</div>
+				<div class="figcaption categories-inner cate-content div-2">
+					<div class="cate-name-wrap">
+						<p class="cate-name">Game Consoles</p>
+					</div>
+					<ul>
+						<li><a href="#">Xbox 360</a></li>
+						<li><a href="#">Action Games</a></li>
+						<li><a href="#">Racing Games</a></li>
+						<li><a href="#">Playstation Console</a></li>
+					</ul>
+					<a class="cate-link link-active" href="#"><span>View all</span></a>
+				</div>
+			</div>
+			<div class="item item-category5"> 
+				<div class="imgslide div-1">
+					<a class="alinkslide" href="#"><img src="{{media url="wysiwyg/alothemes/static/demo11/hotcategory-5.jpg"}}" alt="Hot Categories" class="u-photo img-responsive" /></a>
+				</div>
+				<div class="figcaption categories-inner cate-content div-2">
+					<div class="cate-name-wrap">
+						<p class="cate-name">Headphone & Mp3</p>
+					</div>
+					<ul>
+						<li><a href="#">Chargers</a></li>
+						<li><a href="#">Headphone Accessories</a></li>
+						<li><a href="#">Headphone Cases</a></li>
+						<li><a href="#">Headphones</a></li>
+					</ul>
+					<a class="cate-link link-active" href="#"><span>View all</span></a>
+				</div>
+			</div>
+			<div class="item item-category6"> 
+				<div class="imgslide div-1">
+					<a class="alinkslide" href="#"><img src="{{media url="wysiwyg/alothemes/static/demo11/hotcategory-1.jpg"}}" alt="Hot Categories" class="u-photo img-responsive" /></a>
+				</div>
+				<div class="figcaption categories-inner cate-content div-2">
+					<div class="cate-name-wrap">
+						<p class="cate-name">Laptop & Computer</p>
+					</div>
+					<ul>
+						<li><a href="#">Headphones</a></li>
+						<li><a href="#">Computer Accessories</a></li>
+						<li><a href="#">Computer Monitors</a></li>
+						<li><a href="#">Desktop Computers</a></li>
+					</ul>
+					<a class="cate-link link-active" href="#"><span>View all</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Banner banner-col-left -->
+<div class="row banner banner-show-left">
+	<div class="col-md-5 col-sm-5 banner-col-5">
+		<div class="banner-ads1">
+			<div class="banner-boder-zoom">
+				<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo11/img11a.jpg"}}" alt="img" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-7 col-sm-7 banner-col-7">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 banner-col-6">
+				<div class="banner-ads2">
+					<div class="banner-boder-zoom">
+						<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo11/img11b.jpg"}}" alt="img" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 banner-col-6">
+				<div class="banner-ads3">
+					<div class="banner-boder-zoom">
+						<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo11/img11c.jpg"}}" alt="img" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 banner-col-12">
+				<div class="banner-ads4">
+					<div class="banner-boder-zoom">
+						<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo11/img11d.jpg"}}" alt="img" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Banner -->
+<!-- Magicproduct cms-page-countdown-products -->
+<div class="cms-page-product box-products product-title content-countdown-products box-products-one">
+	<div class="deals-of">
+		{{widget type="magicproduct/widget_magicproduct" identifier="countdown-products-demo11" template="magiccart/magicproduct/magicproduct_deals.phtml"}}
+	</div>
+</div>]]></content>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </page>
+</root>

@@ -1,0 +1,17 @@
+1. 06/12/2018:
+	File changed:
+		app\code\local\Magiccart\Alothemes\controllers\Adminhtml\InstallController.php
+		app\code\local\Magiccart\Alothemes\etc\import\default\system.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert2\system.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert3\system.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert4\system.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert5\system.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert6\system.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert6\block.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert7\system.xml
+		app\code\local\Magiccart\Alothemes\etc\import\expert8\system.xml
+		
+2. 07/15/2018
+	Add new demo 11
+2. 07/25/2018
+	File changed: app\design\frontend\aloexpert\expert5\template\magiccart\megashop\megashop_custom.phtml

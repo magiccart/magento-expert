@@ -1,0 +1,96 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * @see Mage_Reports_Block_Product_Viewed
+ */
+  $width  = Mage::getStoreConfig('alothemes/list/widthImages'); //290;
+    $height = Mage::getStoreConfig('alothemes/list/heightImages'); //370;
+    $helpLabels = $this->helper('alothemes/labels');
+?>
+<?php if ($_products = $this->getRecentlyViewedProducts()): ?>
+<div class="widget widget-viewed block block-related">
+    <div class="widget-title block-title block-title-tabs">
+        <h3><?php echo $this->__('Recently Viewed') ?></h3>
+    </div>
+    <div class="widget-products" id="block-related">
+        <?php $_columnCount = $this->getColumnCount(); ?>
+        <?php $i=0; foreach ($_products as $_product): ?>
+        <?php if ($i++%$_columnCount==0): ?>
+            <ul class="mini-products-list flexisel-content products-grid">
+        <?php endif; ?>
+                <li class="item item-animate<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+					<div class="per-product">
+                        <div class="images-container">
+							<?php $product_label = $helpLabels->getLabels($_product); 
+									if($product_label) :
+								?>
+								<div class="product-label clearfix">
+									<?php echo $product_label; ?>
+								</div>
+							<?php endif ?>
+							<div class="product-hover">
+							    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>" class="product-image">
+									<img class="img-responsive" src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($width , $height) ?>" width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $this->stripTags($_product->getName(), null, true) ?>" />
+								</a>
+								<div class="hover-box actions-no actions clearfix">
+									<div class="show-box clearfix">
+										<div class="product-item-actions">
+											<div class="actions-cart alotheme-tooltip">
+												<?php if($_product->isSaleable()): ?>
+												<button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span class="tooltip"><?php echo $this->__('Add to Cart') ?></span></span></button>
+												<?php else: ?>
+														<p class="availability out-of-stock"><span class="tooltip"><?php echo $this->__('Out of stock') ?></span></p>
+												<?php endif; ?>
+											</div>
+											<ul class="add-to-links">
+												<?php if ($this->helper('wishlist')->isAllow()) : ?>
+													<li class="pull-wishlist alotheme-tooltip"><a href="<?php echo $this->getAddToWishlistUrl($_product) ?>" class="link-wishlist"><i class="fa fa-heart icon icons"></i><span class="tooltip"><?php echo $this->__('Wishlist') ?></span></a></li>
+												<?php endif; ?>
+												<?php if($_compareUrl = $this->getAddToCompareUrl($_product)): ?>
+													<li class="pull-right-no pull-compare alotheme-tooltip"><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare"><i class="fa fa-retweet icon icons"></i><span class="tooltip"><?php echo $this->__('Compare') ?></span></a></li>
+												<?php endif; ?>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-textlink clearfix">
+								<?php echo $this->getPriceHtml($_product, true, '-widget-viewed-grid') ?>
+								<?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+								<h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getName() , 'name') ?></a></h2>
+							</div>
+						</div>
+					</div>
+                </li>
+        <?php if ($i%$_columnCount==0 || $i==count($_products)): ?>
+            </ul>
+        <?php endif; ?>
+        <?php endforeach; ?>
+    </div>
+</div>
+<?php endif; ?>

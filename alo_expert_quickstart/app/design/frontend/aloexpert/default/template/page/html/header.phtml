@@ -1,0 +1,202 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<div class="header-container header-color color">
+	<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('header-promotion')->toHtml(); ?>	
+    <div class="header_full">
+    	<div class="header">
+    	    <div class="header-top">
+    	        <div class="full-width">
+	    	    	<div class="container">
+	    	    	   <div class="top-left top-mobile">
+		    	    	    <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?>
+		    	    		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('hotline')->toHtml(); ?>
+		    	    		<div class="tool-setting">
+		    	    		   <div class="header-setting currency_top">
+							    	<div class="settting-switcher">
+										<div class="dropdown-toggle toggle-tab">
+										    <div class="text-setting">
+										    	<?php echo Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getName(); ?>
+												<?php /* echo Mage::app()->getStore()->getCurrentCurrencyCode(); */ ?>
+												<?php /* echo Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol(); */ ?>
+										    </div>
+										</div>
+										<?php $currencyHtml = $this->getChildHtml('currency');?>
+										<?php if($currencyHtml): ?>
+									    <div class="dropdown-switcher toggle-content">
+								   			<?php echo $currencyHtml ?>
+										</div>
+										<?php endif ?>
+								    </div>
+							    </div>
+					    	   <div class="header-setting">
+							    	<div class="settting-switcher">
+								    	<div class="top-form-language">
+											<?php echo $this->getChildHtml('store_language') ?>
+										</div>
+								    </div>
+							    </div>
+						    </div>
+					    </div>
+	    	    		<div class="top-right top-mobile">
+							<div class="top-link-product">
+	                            <a title="Compare" target="_blank" href="<?php echo $this->getUrl('catalog/product_compare') ?>" class="btn-compare compare"><?php echo $this->__('Compare'); ?></a>
+							</div>
+							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('information')->toHtml(); ?>
+						</div>
+	    	    	</div>
+    	    	</div>
+    	    </div>
+    	    <div class="header-content">
+    	        <div class="container">
+	    	    	<div class="box-width main-fix head-position">
+					    <div class="row clearfix">
+					    	<div class="content-logo col-sm-3 col-md-3 col-lg-3">
+					    		<div class="header-logo">
+									 <?php if ($this->getIsHomePage()):?>
+										<h1 class="logo">
+											<strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo1"><img class="img-responsive" src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+										</h1>
+									<?php else:?>
+										<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img class="img-responsive" src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+									<?php endif?>
+								</div>
+					    	</div>
+					    	<div class="tool-topsearch col-sm-12 col-md-5 col-lg-5">
+								<?php echo $this->getChildHtml('topSearch') ?>
+					    	</div>
+					    	<div class="content-cart col-sm-12 col-md-4 col-lg-4">
+					    	   <div class="tool-header alotheme clearfix">
+					    	       <div class="header-setting account-setting tool-padding">
+										<div class="settting-switcher">
+										    <div class="dropdown-toggle outside-close toggle-tab">
+										       <span class="fa fa-user icons account-icons"></span>
+										       <div class="onclick">
+													<div class="text-account text-bold"><?php echo $this->__('Account'); ?></div>
+													<div class="text-account text-hidden"><?php echo $this->__('Hello! Sign in'); ?></div>
+											   </div>
+											</div>
+											<div class="dropdown-switcher toggle-content">
+										    	<div class="header-top-link dropdown-menu-link">
+										    	    <div class="dropdown-link">
+													<?php  if ($this->helper('customer')->isLoggedIn()): ?>
+															<div class="logout customer-log">
+																<a href="<?php echo Mage::getUrl('customer/account/logout'); ?>" title="<?php echo $this->__('Sign out') ?>"><?php echo $this->__('Sign out') ?>
+																</a>
+															</div>
+														<?php else: ?>
+														<div class="login customer-log">
+														  <a href="<?php echo Mage::getUrl('customer/account/login'); ?>" title="<?php echo $this->__('Sign in') ?>"><?php echo $this->__('Sign in') ?>
+														  </a>
+														</div>
+														<?php endif; ?>
+														<div class="top-link">
+														    <span class="new-customer"><?php echo $this->__('New Customer!') ?></span>
+															<?php  if ($this->helper('customer')->isLoggedIn()): ?>
+																<a href="<?php echo Mage::getUrl('customer/account/'); ?>" title="<?php echo $this->__('My account') ?>"><?php echo Mage::getSingleton('customer/session')->getCustomer()->getName() ?>
+																</a>
+															<?php else: ?>
+																<a class="sigup_link" style="positon:relative;" href="<?php echo Mage::getUrl('customer/account/create'); ?>" title="<?php echo $this->__('Start here.') ?>"><?php echo $this->__('Start here.') ?>
+																</a>
+															<?php endif; ?>
+														</div>
+													</div>
+													<div clas="custom-link">
+														<ul class="top-links">
+															<?php  if ($this->helper('customer')->isLoggedIn()): ?>
+																<li class="first">
+																	<a href="<?php echo Mage::getUrl('customer/account/'); ?>" title="<?php echo $this->__('My account') ?>"><?php echo Mage::getSingleton('customer/session')->getCustomer()->getName() ?>
+																	</a>
+																</li>
+															<?php else: ?>
+															<li class="login first">
+															  <a href="<?php echo Mage::getUrl('customer/account/login'); ?>" title="<?php echo $this->__('Your Account') ?>"><?php echo $this->__('Your Account') ?>
+															  </a>
+															</li>
+															<?php endif; ?>
+															<li class="your-order">
+																<a href="<?php echo Mage::getUrl('sales/order/history'); ?>" title="<?php echo $this->__('Your Order') ?>"><?php echo $this->__('Your Order') ?>
+															     </a>
+															</li>
+															<li class="your-order last">
+																<a href="<?php echo Mage::getUrl('customer/account/edit'); ?>" title="<?php echo $this->__('Your Information') ?>"><?php echo $this->__('Your Information') ?>
+															     </a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tool-icon account-wishlist tool-padding">
+									    <span class="fa fa-heart icons account-icons"></span>
+									    <div class="wishlist">
+							    	    	<a title="My wishlist" href="<?php echo $this->getUrl('wishlist') ?>" target="_blank" class="btn-heart">
+							    	    	<span class="text-account text-bold block"><?php echo $this->__('Wishlist'); ?></span>
+							    	    	<?php $counter = $this->helper('wishlist')->getItemCount() ?>
+											<?php // if($counter): ?>
+												<span class="text-account counter"><?php echo $counter > 0 ? $counter:0; ?></span>
+											<?php // endif; ?>
+							    	    	<span class="text-account text-hidden"><?php echo $this->__('items'); ?></span>
+							    	    	</a>
+						    	    	</div>
+						    	    </div>
+						    		<div class="miniCartWrap tool-padding">
+										<?php echo $this->getChildHtml('ajaxcart'); ?>
+									</div>
+								</div>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+    	    </div>
+			
+            <div class="header-bottom">
+                <div class="header-sticker full-width">
+					<div class="container">
+					    <div class="border-bottom menu-mobile">
+						    <div class="row menu-mobile-none">
+								<div class="header-config-bg col-xs-12 col-sm-12 col-md-12">
+									<div class="header-wrapper-bottom">
+										<div class="custom-menu">
+											<?php echo $this->getChildHtml('topMenu') ?>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+    	</div>
+    </div>
+			
+        <?php echo $this->getChildHtml('topContainer'); ?>
+</div>
+

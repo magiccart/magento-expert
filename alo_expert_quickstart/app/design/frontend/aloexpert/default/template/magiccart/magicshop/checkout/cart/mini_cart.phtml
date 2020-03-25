@@ -1,0 +1,75 @@
+<?php
+/**
+ * Magiccart 
+ * @category    Magiccart 
+ * @copyright   Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license     http://www.magiccart.net/license-agreement.html
+ * @Author: Magiccart<team.magiccart@gmail.com>
+ * @@Create Date: 2014-06-07 12:27:23
+ * @@Modify Date: 2017-08-01 15:47:07
+ * @@Function:
+ */ 
+?>
+<?php $_cartQty = $this->getSummaryCount() ?>
+<?php $_items = $this->getRecentItems(); ?>
+<div class="mini-maincart">
+	<div class="cartSummary outside-close toggle-tab">
+    	<div class="crat-icon">
+           <span class="fa fa-shopping-basket icons shopping-icons"></span>
+            <?php if($_cartQty > 0): ?>
+                <span class="item"><?php echo ($_cartQty >1) ? $_cartQty .' ': $_cartQty ?></span>
+            <?php else : ?>
+                <span class="zero">0</span>
+            <?php endif?>
+    	</div>	
+        <div class="maincart">
+            <p><span class="text-account text-bold block"><?php echo $this->__('Cart'); ?></span></p>
+            <p class="cart-tolatl">
+                <span class="text-account text-hidden"><?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?></span>
+            </p>
+        </div>
+	</div>
+	<div class="mini-contentCart toggle-content">
+		<?php if(count($_items)): ?>
+        <div class="block-content">
+            <p class="block-subtitle"><?php echo $this->__('Your Cart') ?></p>
+            <ol id="cart-sidebar" class="mini-products-list clearfix">
+                <?php foreach($_items as $_item): ?>
+                    <?php echo $this->getItemHtml($_item) ?>
+                <?php endforeach; ?>
+            </ol>
+            <p class="subtotal clearfix">
+                <?php if ($this->canApplyMsrp()): ?>
+                    <span class="map-cart-sidebar-total"><?php echo $this->__('Order Total Will Be Displayd Before You Sumit the Order'); ?></span>
+                <?php else: ?>
+                    <span class="label"><?php echo $this->__('Subtotal:') ?></span> <?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?>
+                    <?php if ($_subtotalInclTax = $this->getSubtotalInclTax()): ?>
+                        <br />(<?php echo Mage::helper('checkout')->formatPrice($_subtotalInclTax) ?> <?php echo Mage::helper('tax')->getIncExcText(true) ?>)
+                    <?php endif; ?>
+                <?php endif; ?>
+            </p>
+            <div class="actions">
+                <a href="<?php echo $this->getUrl('checkout/cart',array('_secure'=>$this->getRequest()->isSecure(), '_type' => 'direct_link')) ?>" class="view-cart">
+                    <?php echo $this->__('View cart') ?>
+                </a>
+                <a href="<?php echo $this->getCheckoutUrl() ?>" class="checkout">
+                 <?php echo $this->__('Checkout') ?>
+                </a>
+                <?php  echo $this->getChildHtml('extra_actions')  ?>
+            </div>
+            <script type="text/javascript">decorateList('cart-sidebar', 'none-recursive')</script>
+        </div>
+
+		<?php else: ?>
+		<div class="block-content">
+             <p class="block-subtitle"><?php echo $this->__('Your Cart') ?></p>
+			<p class="empty"><?php echo $this->__('You have no items in your shopping cart.') ?></p>
+		</div>
+		<?php endif ?>
+        <div class="capped-delivery">
+            <p><span><?php echo $this->__('$99') ?></span><?php echo $this->__('Capped Delivery') ?></p>
+            <p><?php echo $this->__('Fill your cart & pay no more than $99 dellivery') ?></p>
+        </div>	
+	</div>
+</div>
+

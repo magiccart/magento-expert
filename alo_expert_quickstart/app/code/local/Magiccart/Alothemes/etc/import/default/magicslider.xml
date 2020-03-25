@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+  <magicslider>
+    <slide>
+      <title><![CDATA[Slider Demo 1]]></title>
+      <identifier><![CDATA[slider1]]></identifier>
+      <content><![CDATA[[{"url":"http:\/\/web.com\/alo_expert1x\/media\/magiccart\/magicslider\/\/s\/l\/slide1-1.jpg","file":"\/s\/l\/slide1-1.jpg","label":"Alothemes","position":"1","disabled":0,"removed":0,"html":"<div class=\"container\">\n\t<div class=\"text-slide text-slide1\">\n\t\t<h3 class=\"caption1 black\">The Gift HD LED TV<\/h3>\n\t\t<h3 class=\"caption2 black\">Wishing for is right here<\/h3>\n\t\t<h3 class=\"caption3 gray\">The curved display has a curvature level equivalent <br> to that of a circle tracks the round.<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop\">Shop Now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""},{"url":"http:\/\/web.com\/alo_expert1x\/media\/magiccart\/magicslider\/\/s\/l\/slide1-2.jpg","file":"\/s\/l\/slide1-2.jpg","label":"Alothemes","position":"2","disabled":0,"removed":0,"html":"<div class=\"container\">\n\t<div class=\"text-slide text-slide2\">\n\t\t<h3 class=\"caption1 black\">New Smartphone<\/h3>\n\t\t<h3 class=\"caption2 black\">Gift you are wishing<\/h3>\n\t\t<h3 class=\"caption3 black\">for right here.<\/h3>\n\t\t<h3 class=\"caption4 gray\">Big screen in incredibly slim design that <br> in your hand.<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop\">Shop Now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""},{"url":"http:\/\/web.com\/alo_expert1x\/media\/magiccart\/magicslider\/\/s\/l\/slide1-3.jpg","file":"\/s\/l\/slide1-3.jpg","label":"Alothemes","position":"3","disabled":0,"removed":0,"html":"<div class=\"container\">\n\t<div class=\"text-slide text-slide3\">\n\t\t<h3 class=\"caption1 black\">The Gift HD LED TV<\/h3>\n\t\t<h3 class=\"caption2 black\">Wishing for is right here<\/h3>\n\t\t<h3 class=\"caption3 gray\">The curved display has a curvature level equivalent <br> to that of a circle tracks the round.<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop\">Shop Now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""}]]]></content>
+      <status><![CDATA[1]]></status>
+      <config><![CDATA[a:6:{s:5:"width";s:4:"1920";s:6:"height";s:3:"550";s:8:"controls";s:1:"1";s:5:"pager";s:1:"1";s:5:"pause";s:5:"60000";s:5:"speed";s:3:"800";}]]></config>
+    </slide>
+  </magicslider>
+</root>

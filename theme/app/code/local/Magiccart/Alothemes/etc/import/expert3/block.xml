@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Footer Links Company]]></title>
+      <identifier><![CDATA[footer_links_company]]></identifier>
+      <content><![CDATA[<div class="links">
+    <ul>
+        <li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+        <li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+        <li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+        <li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+		<li><a href="{{store url=""}}catalog/seo_sitemap/category/">Sitemap</a></li>
+		<li><a href="#">Delivery Time</a></li>
+    </ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[hotline]]></title>
+      <identifier><![CDATA[hotline]]></identifier>
+      <content><![CDATA[<div class="main-header top-mobile">
+	<div class="support">
+		<span class="icon fa fa-phone "><em class="hidden">hidden</em></span><span>(080)123 4567 891</span>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[information]]></title>
+      <identifier><![CDATA[information]]></identifier>
+      <content><![CDATA[<div class="below-column">
+    <div class="links-wrapper-separators">
+		<ul class="links">
+		    <li class="hlink-below about-us">
+				<a href="{{store url=""}}about-magento-demo-store/" title="About Us">About</a>
+			</li>
+			<li class="link-below">
+				<a href="{{store url=""}}contacts/" title="Contact">Contact</a>
+			</li>
+			<li class="last link-below store-location">
+				<a href="{{store url=""}}locations/" title="Store Location">Store Location</a>
+			</li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[payment]]></title>
+      <identifier><![CDATA[payment]]></identifier>
+      <content><![CDATA[<div class="payment">
+	<a class="introduce-paypal" href="#"> <img class="img-responsive paypal" alt="Payment" src="{{media url="wysiwyg/alothemes/static/payment.png"}}" /> </a>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Policy Product Detail]]></title>
+      <identifier><![CDATA[additional-complete-policy-block]]></identifier>
+      <content><![CDATA[<div class="cms-static-policy policy">
+	<div class="policy-wrap clearfix">
+		<div class="policy-box">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-transport"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Free Shipping</h3>
+					</div>
+					<div class="sub-title"><span>On Oder Over $99</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="policy-box">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-clock"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Guarantee</h3>
+					</div>
+					<div class="sub-title"><span>30 Days Money Back</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="policy-box">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-money"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Payment On Delivery</h3>
+					</div>
+					<div class="sub-title"><span>Cash On Delivery Option</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="policy-box">
+			<div class="box-content">
+				<div class="icon-service">
+					<span class="icons glyph-icon flaticon-technology"><em class="hidden">hidden</em></span>
+				</div>
+				<div class="service-content">
+					<div class="info-title">
+						<h3>Online Suport</h3>
+					</div>
+					<div class="sub-title"><span>We Have Support 24/7</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_contact_map]]></title>
+      <identifier><![CDATA[block_contact_map]]></identifier>
+      <content><![CDATA[<div class="google-map">
+	<div style="width: 100%;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001350.78320809!2d-78.01265003404623!3d42.72475052342682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sTi%E1%BB%83u+bang+New+York!5e0!3m2!1svi!2s!4v1512010188041" width="100%" height="530" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[contact_details]]></title>
+      <identifier><![CDATA[contact_details]]></identifier>
+      <content><![CDATA[<div class="contact_details">
+	<h3 class="page-subheading">Contact</h3>
+	<p class="short-description">'If you need any help, please contact us or send us an email or go to our forum. We are sure that you can receive our reply as soon as possible.</p>
+	<div class="contact_info">
+		<div class="info_main clearfix border_right">
+			<div class="fa fa-map-marker icons"><span class="hidden">hidden</span></div>
+			<div class="flex">
+				<p class="tit-name">Address</p>
+				<p class="tit-contain">45 Grand Central Terminal New York,NY 1017</p>
+				<p class="tit-contain">United State USA</p>
+			</div>
+		</div>
+		<div class="info_main clearfix border_right">
+			<div class="fa fa-phone icons"><span class="hidden">hidden</span></div>
+			<div class="flex">
+				<p class="tit-name">Phone</p>
+				<p class="tit-contain">(+123) 456 789 - (+204) 666 8881</p>
+			</div>
+		</div>
+		<div class="info_main clearfix">
+			<div class="fa fa-envelope icons"><span class="hidden">hidden</span></div>
+			<div class="flex">
+				<p class="tit-name">Email</p>
+				<p class="tit-contain"><a href="mailto:contact@yourcompany.com">Contact@yourcompany.com</a></p>
+			</div>
+		</div>
+		<div class="info_main clearfix">
+			<div class="fa fa-clock-o icons"><span class="hidden">hidden</span></div>
+			<div class="flex">
+				<p class="tit-name">Hours</p>
+				<p class="tit-contain">Mon-Sat 9:00pm - 5:00pm Sun:Closed</p>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[cms-static-company-worker]]></title>
+      <identifier><![CDATA[cms-static-company-worker]]></identifier>
+      <content><![CDATA[<!-- cms-static-company-worker -->
+<div class="cms-static-company-worker company-worker">
+	<div class="container about-us-info expert-aboutus">
+	    <div class="block-title">
+			<h2>My Teams</h2>
+		</div>
+		<div class="row">
+			<div class="col-about-2 item col-sm-12 col-md-3 col-lg-3">
+				<div class="img media">
+					<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/cms/people1.jpg"}}" alt="" /></a>
+				</div>
+				<div class="info desc-group">
+					<b class="author-name">lucia</b>
+					<span class="author-title">manager</span>
+					<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+				</div>
+			</div>
+			<div class="col-about-2 item col-sm-12 col-md-3 col-lg-3">
+				<div class="img media">
+					<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/cms/people2.jpg"}}" alt="" /></a>
+				</div>
+				<div class="info desc-group">
+					<b class="author-name">lucia</b>
+					<span class="author-title">manager</span>
+					<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+				</div>
+			</div>
+			<div class="col-about-2 item col-sm-12 col-md-3 col-lg-3">
+				<div class="img media">
+					<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/cms/people3.jpg"}}" alt="" /></a>
+				</div>
+				<div class="info desc-group">
+					<b class="author-name">nana</b>
+					<span class="author-title">marketer</span>
+					<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+				</div>
+			</div>
+			<div class="col-about-2 item col-sm-12 col-md-3 col-lg-3">
+				<div class="img media">
+					<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/cms/people4.jpg"}}" alt="" /></a>
+				</div>
+				<div class="info desc-group">
+					<b class="author-name">braum</b>
+					<span class="author-title">member</span>
+					<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- cms-static-detail-about -->
+<div class="cms-static-detail-about">
+	<div class="container">
+	    <div class="detail-about">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 left-detail-about">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+							<h3 class="title">What we really do?</h3>
+							<p class="text">Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna, vitae ultrices lacus purus vitae metus. Ut nec odio facilisis, ultricies nunc eget, fringilla orci.</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+							<h3 class="title">Our version</h3>
+							<p class="text">Vestibulum velit nibh, egestas vel faucibus vitae, feugiat sollicitudin urna. Praesent iaculis id ipsum sit amet pretium. Aliquam tristique sapien nec enim euismod, scelerisque facilisis arcu consectetur. Vestibulum velit nibh, egestas vel faucibus vitae.</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+							<h3 class="title">History of the company</h3>
+							<p class="text">Mauris rhoncus aliquet purus, a ornare nisi euismod in. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam imperdiet eu metus vel ornare. Nullam in risus vel orci feugiat vestibulum. In sed aliquam mi. Nullam condimentum sollicitudin dui.</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 item box">
+							<h3 class="title">Cooperate with Us!</h3>
+							<p class="text">Donec libero dolor, tincidunt id laoreet vitae, ullamcorper eu tortor. Maecenas pellentesque, dui vitae iaculis mattis, tortor nisi faucibus magna, vitae ultrices lacus purus vitae metus. Ut nec odio facilisis, ultricies nunc eget, fringilla orci.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 right-detail-about">
+					<h3 class="title">What we can do for you</h3>
+					<div class="box">
+						<input type="radio" name="toggle" id="box1" checked="" />
+						<label for="box1"><i class="hidden">hidden</i></label>
+						<div class="box-content">
+							<h3 class="sub-title">support 24/7</h3>
+							<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+						</div>
+					</div>
+					<div class="box">
+						<input type="radio" name="toggle" id="box2"/>
+						<label for="box2"><i class="hidden">hidden</i></label>
+						<div class="box-content">
+							<h3 class="sub-title">Best quality</h3>
+							<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+						</div>
+					</div>
+					<div class="box">
+						<input type="radio" name="toggle" id="box3"/>
+						<label for="box3"><i class="hidden">hidden</i></label>
+						<div class="box-content">
+							<h3 class="sub-title">Faster delivery</h3>
+							<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+						</div>
+					</div>
+					<div class="box">
+						<input type="radio" name="toggle" id="box4"/>
+						<label for="box4"><i class="hidden">hidden</i></label>
+						<div class="box-content">
+							<h3 class="sub-title">Customer care</h3>
+							<p class="subcribe">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_footer_bottom]]></title>
+      <identifier><![CDATA[block_footer_bottom]]></identifier>
+      <content><![CDATA[<div class="block-footer-bottom">
+	<div class="main-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-xs-12 col-custom-footer col-custom-footer-1">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Contact Details</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+						<div class="block1 block-content-statick toggle-content">
+							<ul class="address-list">
+								<li class="feature-icon first">
+									<p class="no-margin">
+										<span class="tit-name fa fa-map-marker"><span class="hidden">hidden</span></span>
+										<span class="tit-contain">45 Grand Central Terminal New <br> York,NY 1017 United State USA</span>
+									</p>
+								</li>
+								<li class="feature-icon">
+									<p>
+										<span class="tit-name fa fa-phone"><span class="hidden">hidden</span></span>
+										<span class="tit-contain">(+123) 456 789 - (+204) 666 888</span>
+									</p>
+								</li>
+								<li class="feature-icon">
+									<p>
+										<span class="tit-name fa fa-envelope"><span class="hidden">hidden</span></span>
+										<span class="tit-contain">contact@yourcompany.com</span>
+									</p>
+								</li>
+								<li class="feature-icon">
+									<p>
+										<span class="tit-name fa fa-clock-o"><span class="hidden">hidden</span></span>
+										<span class="tit-contain">Mon-Sat 9:00pm - 5:00pm Sun:Closed</span>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9 col-xs-12 col-custom-footer col-custom-footer-2">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-width">
+							<div class="collapsible mobile-collapsible">
+								<h3 class="block-title heading">Customer</h3>
+								<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+								<div class="block-content block-content-statick toggle-content">
+									<ul class="bullet">
+									<li><a href="#">Shipping & Returns</a></li>
+									<li><a href="#">Secure Shopping</a></li>
+									<li><a href="#">Order Status</a></li>
+									<li><a href="#">International Shipping</a></li>
+									<li><a href="#">Affiliates</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-width">
+							<div class="collapsible mobile-collapsible">
+								<h3 class="block-title heading">Information</h3>
+								<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+								<div class="block-content block-content-statick toggle-content">
+									<ul class="bullet">
+									<li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+									<li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+									<li><a href="{{store url=""}}sales/guest/form/">Orders and Returns</a></li>
+									<li><a href="{{store url=""}}contacts/">Contact</a></li>
+									<li><a href="{{store url=""}}catalog/seo_sitemap/category/">Sitemap</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-width">
+							<div class="collapsible mobile-collapsible">
+								<h3 class="block-title heading">About Us</h3>
+								<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+								<div class="block-content block-content-statick toggle-content">
+									<ul class="bullet">
+									<li><a href="#">Our Blog</a></li>
+									<li><a href="#">About Our Shop</a></li>
+									<li><a href="#">Secure Shopping</a></li>
+									<li><a href="#">Delivery infomation</a></li>
+									<li><a href="#">Store Locations</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom-width footer-left">
+							<div class="collapsible mobile-collapsible">
+								<h3 class="block-title heading">Hotline</h3>
+								<span class="toggle-tab mobile" style="display: none;"><span class="hidden">hidden</span></span>
+								<div class="block-content block-content-statick toggle-content">
+									<div class="bullet hotline">
+										<p>Call Us toll Free</p>
+										<p class="big-phone">(080)123 4567 891</p>
+										<a href="#" class="call-Us-Now">Call Us Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="main-bottom full-width">
+			<div class="row">
+				<div class="block-newletter col-lg-7 col-md-7 col-xs-12">{{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}</div>
+				<div class="socials alo-social-links col-lg-5 col-md-5 col-xs-12">
+					<div class="page-footer-social">
+						<h3 class="block-title heading exclusive black"><span>Follow Us</span></h3>
+						<div class="icon-social icon-share-link clearfix">
+							<a href="#" class="social-link twitter">
+								<span class="fa fa-twitter"><span class="hidden">Twitter</span></span>
+							</a>
+							<a href="#" class="social-link facebook">
+								<span class="fa fa-facebook"><span class="hidden">Facebook</span></span>
+							</a>
+							<a href="#" class="social-link pinterest">
+								<span class="fa fa-pinterest"><span class="hidden">Pinterest</span></span>
+							</a>
+							<a href="#" class="social-link instagram">
+								<span class="fa fa-instagram"><span class="hidden">Instagram</span></span>
+							</a>
+							<a href="#" class="social-link youtube">
+								<span class="fa fa-youtube-play"><span class="hidden">Youtube</span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Menu Bedroom Furniture]]></title>
+      <identifier><![CDATA[menu-bedroom-furniture]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu cms-static-position banner-manife banner-position-right-top clearfix">
+    <div class="text-menu text-menu-3">
+	    <p class="small-size">Beautiful and luxurious decor <br> at Affordable price</p>
+		<h2>Dinning</h2>
+		<h3>Chairs</h3>
+		<a href="#" class="link-shop-menu">Shop Now</a>
+	</div>
+	<div class="banner-menu">
+		<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/img-position4.png"}}" alt="Menu" />
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Menu Coffee Tables]]></title>
+      <identifier><![CDATA[menu-coffee-tables]]></identifier>
+      <content><![CDATA[<div class="cms-static-banner-menu banner-manife banner-manife-full clearfix">
+	<div class="banner-menu banner-menu-col-12">
+	    <div class="hover-effect">
+			<a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/menu-bottom3.jpg"}}" alt="menu" /></a>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Brand and Magicproducts]]></title>
+      <identifier><![CDATA[static_sections_bottom]]></identifier>
+      <content><![CDATA[<div class="page-alotheme static_sections_bottom">
+	<!-- Brand -->
+	<div class="alo-brand cms-static-brand">
+		<div class="container">
+			<div class="main-brand">{{widget type="shopbrand/widget_brand" template="magiccart/shopbrand/brand.phtml"}}</div>
+		</div>
+	</div>
+	<!-- Magicproduct Latest Products -->
+	<div class="cms-page-product box-products box-products-five product-title">
+		<div class="container">
+		{{widget type="magicproduct/widget_magicproduct" identifier="latest-products-demo3" template="magiccart/magicproduct/magicproduct.phtml"}}
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[sidebar-filter-banner]]></title>
+      <identifier><![CDATA[sidebar-filter-banner]]></identifier>
+      <content><![CDATA[<div class="sidebar-filter-banner banner"><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/sidebar-filter-banner.jpg"}}" alt="" /></a></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>

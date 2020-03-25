@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+  <magicslider>
+    <slide>
+      <title><![CDATA[Slider Demo 4]]></title>
+      <identifier><![CDATA[slider4]]></identifier>
+      <content><![CDATA[[{"url":"http:\/\/web.com\/alo_expert1x\/media\/magiccart\/magicslider\/\/s\/l\/slider-1-4.jpg","file":"\/s\/l\/slider-1-4.jpg","label":"","position":"1","disabled":0,"removed":0,"html":"<div class=\"container figcaption\">\n\t<div class=\"text-slide text-slide1\">\n\t\t<h3 class=\"caption1 white\">Profressional quality<\/h3>\n\t\t<h3 class=\"caption2 white\">Tools<\/h3>\n\t\t<h3 class=\"caption3 white\">for Less<\/h3>\n\t\t<h3 class=\"caption4 white\">Used tools for sale - addtional tools <br> Made available for sale Monthly<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop\">Shop Now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""},{"url":"http:\/\/web.com\/alo_expert1x\/media\/magiccart\/magicslider\/\/s\/l\/slider-2-4.jpg","file":"\/s\/l\/slider-2-4.jpg","label":"","position":"2","disabled":0,"removed":0,"html":"<div class=\"container figcaption\">\n\t<div class=\"text-slide text-slide2\">\n\t\t<h3 class=\"caption1 black\">Wireless Video<\/h3>\n\t\t<h3 class=\"caption2 black\">Analytics EVent<\/h3>\n\t\t<h3 class=\"caption3 black\">Wi-fi and 4g<\/h3>\n\t\t<h3 class=\"caption4 gray\">Connect your world with iconnex<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop\">Shop Now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""},{"url":"http:\/\/web.com\/alo_expert1x\/media\/magiccart\/magicslider\/\/s\/l\/slider-3-4.jpg","file":"\/s\/l\/slider-3-4.jpg","label":"","position":"3","disabled":0,"removed":0,"html":"<div class=\"container figcaption\">\n\t<div class=\"text-slide text-slide3\">\n\t\t<h3 class=\"caption1 white\">Wireless Video<\/h3>\n\t\t<h3 class=\"caption2 white\">Analytics EVent<\/h3>\n\t\t<h3 class=\"caption3 white\">Wi-fi and 4g<\/h3>\n\t\t<h3 class=\"caption4 white\">Connect your world with iconnex<\/h3>\n\t\t<h3 class=\"caption5\"><a href=\"#\" class=\"btn-shop\">Change your look now<\/a><\/h3>\n\t<\/div>\n<\/div>","link":""}]]]></content>
+      <status><![CDATA[1]]></status>
+      <config><![CDATA[a:6:{s:5:"width";s:3:"880";s:6:"height";s:3:"574";s:8:"controls";s:1:"1";s:5:"pager";s:1:"0";s:5:"pause";s:4:"6000";s:5:"speed";s:3:"800";}]]></config>
+    </slide>
+  </magicslider>
+</root>
