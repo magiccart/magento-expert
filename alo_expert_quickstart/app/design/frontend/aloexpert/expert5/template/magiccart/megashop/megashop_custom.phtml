@@ -103,7 +103,7 @@
 							$status = ($type == $active) ? "active loaded $single" : '';
 							echo '<li class="item '.$status.'" data-type ="'.$type.'"><span class ="title">'.$this->__($name).'</span></li>';
 						endforeach;
-						if($relatedTabs){
+						if(is_array($relatedTabs)){
 							foreach ($relatedTabs as $cat):
 								echo '<li class="citem" data-type ="'.$cat->getEntityId().'"><a href="'.$cat->getUrl().'"><span class ="title">'.$cat->getName().'</span></a></li>';
 							endforeach;							
