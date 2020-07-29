@@ -102,49 +102,39 @@
                         return;
                     }
 
-                    url = "https://api.instagram.com/v1/users/self/?access_token=" + access_token ;
-                    $.getJSON(url, function (data) {
-                            var shot = data.data;
-                            var instagram_username = shot.username;
-                            if (instagram_username == options.username) {
-                                var user_id = shot.id;
-
-                                if (user_id != "") {
-                                    url = "https://api.instagram.com/v1/users/" + user_id + "/media/recent/?access_token=" + access_token + "&count=" + options.limit + "&callback=?";
-                                    $.getJSON(url, function (data) {
-                                        $.each(data.data, function (i, shot) {
-                                            //var photo_src = shot.images.thumbnail.url;
-                                            var photo_src = shot.images.low_resolution.url;
-                                            //var photo_src = shot.images.standard_resolution.url;
-                                            var photo_url = shot.link;
-
-                                            var photo_title = "";
-                                            if (shot.caption != null) {
-                                                photo_title = shot.caption.text;
-                                            }
-
-                                            var photo_container = $('<img/>').attr({
-                                                src: photo_src,
-                                                alt: photo_title
-                                            });
-                                            var url_container = $('<a/>').attr({
-                                                href: photo_url,
-                                                target: '_blank',
-                                                title: photo_title
-                                            });
-                                            var tmp = $(url_container).append(photo_container);
-                                            if (options.overlay) {
-                                                var overlay_div = $('<div/>').addClass('img-overlay');
-                                                $(url_container).append(overlay_div);
-                                            }
-                                            var li = $('<li/>').append(tmp);
-                                            $("ul", object).append(li);
-
-                                        });
-                                    });
-                                }
+                    var url          = "https://graph.instagram.com/me/media";
+                    var limit        = options.limit;
+                    $.getJSON(url, {'access_token': access_token, 'limit': limit, 'fields': 'id, caption, comments_count, like_count, media_type, media_url, thumbnail_url, permalink' }, function (data) {
+                        var shot = data.data;
+                        $.each(data.data, function (i, shot) {
+                           if (shot.media_type !== 'IMAGE') return;
+                            var photo_src = shot.media_url;
+                            var photo_url = shot.permalink;
+                            var photo_title = "";
+                            if (shot.caption != null) {
+                                photo_title = shot.caption;
                             }
+
+                            var photo_container = $('<img/>').attr({
+                                src: photo_src,
+                                alt: photo_title
+                            });
+                            var url_container = $('<a/>').attr({
+                                href: photo_url,
+                                target: '_blank',
+                                title: photo_title
+                            });
+                            var tmp = $(url_container).append(photo_container);
+                            if (options.overlay) {
+                                var overlay_div = $('<div/>').addClass('img-overlay');
+                                $(url_container).append(overlay_div);
+                            }
+                            var li = $('<li/>').append(tmp);
+                            $("ul", object).append(li);
+
+                        });
                     });
+
                     break;
                 case 'dribbble':
                     object.append("<ul class=\"dribbble-list\"></ul>")
