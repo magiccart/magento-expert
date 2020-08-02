@@ -107,7 +107,7 @@
                     $.getJSON(url, {'access_token': access_token, 'limit': limit, 'fields': 'id, caption, comments_count, like_count, media_type, media_url, thumbnail_url, permalink' }, function (data) {
                         var shot = data.data;
                         $.each(data.data, function (i, shot) {
-                           if (shot.media_type !== 'IMAGE') return;
+                            if (shot.media_type === 'VIDEO') return;
                             var photo_src = shot.media_url;
                             var photo_url = shot.permalink;
                             var photo_title = "";
