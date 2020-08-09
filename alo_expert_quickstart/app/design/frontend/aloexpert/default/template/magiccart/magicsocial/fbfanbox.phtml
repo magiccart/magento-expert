@@ -18,9 +18,9 @@ if(isset($fbfanbox['enabled']) && $fbfanbox['enabled'])
 {
     $box_content="";
     if(is_numeric($fbfanbox['fb_page_url'])){
-        $box_content .='<iframe src="http://www.facebook.com/connect/connect.php?id='.$fbfanbox['fb_page_url'];
+        $box_content .='<iframe src="https://www.facebook.com/connect/connect.php?id='.$fbfanbox['fb_page_url'];
     }else {
-        $box_content .='<iframe src="http://www.facebook.com/plugins/likebox.php?href='. urlencode($fbfanbox['fb_page_url']);
+        $box_content .='<iframe src="https://www.facebook.com/plugins/likebox.php?href='. urlencode($fbfanbox['fb_page_url']);
     }
     $confg = array('width', 'height', 'connections', 'header', 'stream');
     foreach ($confg as $cfg) {
