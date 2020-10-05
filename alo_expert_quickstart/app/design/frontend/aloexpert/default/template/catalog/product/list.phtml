@@ -94,7 +94,7 @@
 							<img id="product-collection-image-<?php echo $_product->getId(); ?>" class="img-responsive" src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($width , $height); ?>" width="<?php echo $width ?>" height="<?php echo $height ?>" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
 						</a>
 						<div class="link-view alotheme-tooltip <?php echo $_product->getTypeId(); ?>"> 
-							<a title="<?php echo $this->__('Quick View') ?>" href="<?php echo $this->getUrl('magicshop/quickview/view', array('id' => $_product->getId(),'_type' => 'direct_link', '_secure'=>$this->getRequest()->isSecure())); ?>" class="link-quickview">
+							<a title="<?php echo $this->__('Quick View') ?>" href="<?php echo $this->getUrl('magicshop/quickview/view', array('id' => $_product->getId(), '_secure'=>$this->getRequest()->isSecure())); ?>" class="link-quickview">
 								<i class="fa fa-search-plus icons"></i><span><?php echo __('Quick View')?></span>
 							</a>
 						</div>

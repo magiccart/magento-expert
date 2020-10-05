@@ -64,7 +64,7 @@
 									<?php endif ?>
 							    </a>
 								<div class="link-view <?php echo $_product->getTypeId(); ?>"> 
-									<a title="<?php echo $this->__('Quick View') ?>" href="<?php echo $this->getUrl('magicshop/quickview/view', array('id' => $_product->getId(),'_type' => 'direct_link', '_secure'=>$this->getRequest()->isSecure())); ?>" class="link-quickview">
+									<a title="<?php echo $this->__('Quick View') ?>" href="<?php echo $this->getUrl('magicshop/quickview/view', array('id' => $_product->getId(), '_secure'=>$this->getRequest()->isSecure())); ?>" class="link-quickview">
 										<i class="fa fa-search-plus icons"></i><?php echo $this->__('Quick View')?>
 									</a>
 								</div>
